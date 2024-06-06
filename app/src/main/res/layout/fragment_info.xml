@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.info.InfoFragment"
+    android:background="@color/aliceBlue"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Адрес:"
+        android:fontFamily="@font/nautilus"
+        android:textSize="24dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Белореченск, Краснодарский край, ул. Ленина, 64"
+        android:fontFamily="@font/nautilus"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Контактные номера:"
+        android:fontFamily="@font/nautilus"
+        android:textSize="24dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+7 (86155) 3‒37‒50\n +7 (86155) 3‒20‒18\n +7 (86155) 3‒38‒79"
+        android:fontFamily="@font/nautilus"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Об авторе:"
+        android:fontFamily="@font/nautilus"
+        android:textSize="24dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Программа была разработана студентом группы ИП-3 Григорьевым Д.В."
+        android:fontFamily="@font/nautilus"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.give.GiveFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/aliceBlue"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/butCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:backgroundTint="@null"
+            android:background="@drawable/border_item"
+            app:icon="@drawable/ic_add"
+            app:iconSize="20dp"
+            android:fontFamily="@font/nautilus"
+            android:text="Добавить"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:layoutDirection="ltr"/>
+
+        <EditText
+            android:id="@+id/etFilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Поиск" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_give" />
+
+</LinearLayout>
